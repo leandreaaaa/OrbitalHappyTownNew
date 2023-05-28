@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4B0A7A1E61FD8170640E91 /* Pods_OrbitalHappyTownNew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DCAAB6111CC26C98FE5EF8 /* Pods_OrbitalHappyTownNew.framework */; };
+		3D1C4CB82A23D61E00C12E7B /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1C4CB72A23D61E00C12E7B /* FirebaseFirestore.framework */; };
+		3D1D6E322A23CE1F00FF11DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D1D6E312A23CE1F00FF11DE /* GoogleService-Info.plist */; };
+		3D28B7582A23D25B0002D9DB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D28B7572A23D25B0002D9DB /* Utilities.swift */; };
 		3DA340382A23BA1A00BFC3BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA340372A23BA1A00BFC3BD /* AppDelegate.swift */; };
 		3DA3403A2A23BA1A00BFC3BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA340392A23BA1A00BFC3BD /* SceneDelegate.swift */; };
 		3DA3403C2A23BA1A00BFC3BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3403B2A23BA1A00BFC3BD /* ViewController.swift */; };
 		3DA3403F2A23BA1A00BFC3BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA3403D2A23BA1A00BFC3BD /* Main.storyboard */; };
 		3DA340412A23BA1C00BFC3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA340402A23BA1C00BFC3BD /* Assets.xcassets */; };
 		3DA340442A23BA1C00BFC3BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA340422A23BA1C00BFC3BD /* LaunchScreen.storyboard */; };
+		3DA3404D2A23BA3600BFC3BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3404C2A23BA3600BFC3BD /* HomeViewController.swift */; };
+		3DA3404F2A23BA4300BFC3BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3404E2A23BA4300BFC3BD /* LoginViewController.swift */; };
+		3DA340512A23BA5100BFC3BD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA340502A23BA5100BFC3BD /* SignUpViewController.swift */; };
+		3DA4A73E2A23C6E700586632 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DA4A73D2A23C6E700586632 /* GoogleService-Info (2).plist */; };
+		3DBE0E242A23D5340025595F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBE0E232A23D5340025595F /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20E230120F79E2E1B20458AE /* Pods-OrbitalHappyTownNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitalHappyTownNew.debug.xcconfig"; path = "Target Support Files/Pods-OrbitalHappyTownNew/Pods-OrbitalHappyTownNew.debug.xcconfig"; sourceTree = "<group>"; };
+		3D1C4CB72A23D61E00C12E7B /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1D6E312A23CE1F00FF11DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3D28B7572A23D25B0002D9DB /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3DA340342A23BA1A00BFC3BD /* OrbitalHappyTownNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitalHappyTownNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA340372A23BA1A00BFC3BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DA340392A23BA1A00BFC3BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,13 @@
 		3DA340402A23BA1C00BFC3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DA340432A23BA1C00BFC3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DA340452A23BA1C00BFC3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA3404C2A23BA3600BFC3BD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3DA3404E2A23BA4300BFC3BD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3DA340502A23BA5100BFC3BD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3DA4A73D2A23C6E700586632 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		3DBE0E232A23D5340025595F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8B5BD5C7A779A2B11F44ADFF /* Pods-OrbitalHappyTownNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitalHappyTownNew.release.xcconfig"; path = "Target Support Files/Pods-OrbitalHappyTownNew/Pods-OrbitalHappyTownNew.release.xcconfig"; sourceTree = "<group>"; };
+		E4DCAAB6111CC26C98FE5EF8 /* Pods_OrbitalHappyTownNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrbitalHappyTownNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1C4CB82A23D61E00C12E7B /* FirebaseFirestore.framework in Frameworks */,
+				0B4B0A7A1E61FD8170640E91 /* Pods_OrbitalHappyTownNew.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34AA7FEC85592974F15CD3A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C4CB72A23D61E00C12E7B /* FirebaseFirestore.framework */,
+				E4DCAAB6111CC26C98FE5EF8 /* Pods_OrbitalHappyTownNew.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D28B7562A23D2360002D9DB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3D28B7572A23D25B0002D9DB /* Utilities.swift */,
+				3DBE0E232A23D5340025595F /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		3DA3402B2A23BA1A00BFC3BD = {
 			isa = PBXGroup;
 			children = (
 				3DA340362A23BA1A00BFC3BD /* OrbitalHappyTownNew */,
 				3DA340352A23BA1A00BFC3BD /* Products */,
+				ECADCCE06A08480EC173D7A2 /* Pods */,
+				34AA7FEC85592974F15CD3A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,38 @@
 		3DA340362A23BA1A00BFC3BD /* OrbitalHappyTownNew */ = {
 			isa = PBXGroup;
 			children = (
+				3D28B7562A23D2360002D9DB /* Helpers */,
+				3DA3404B2A23BA2600BFC3BD /* View Controllers */,
 				3DA340372A23BA1A00BFC3BD /* AppDelegate.swift */,
 				3DA340392A23BA1A00BFC3BD /* SceneDelegate.swift */,
-				3DA3403B2A23BA1A00BFC3BD /* ViewController.swift */,
 				3DA3403D2A23BA1A00BFC3BD /* Main.storyboard */,
 				3DA340402A23BA1C00BFC3BD /* Assets.xcassets */,
 				3DA340422A23BA1C00BFC3BD /* LaunchScreen.storyboard */,
 				3DA340452A23BA1C00BFC3BD /* Info.plist */,
+				3DA4A73D2A23C6E700586632 /* GoogleService-Info (2).plist */,
+				3D1D6E312A23CE1F00FF11DE /* GoogleService-Info.plist */,
 			);
 			path = OrbitalHappyTownNew;
+			sourceTree = "<group>";
+		};
+		3DA3404B2A23BA2600BFC3BD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DA340502A23BA5100BFC3BD /* SignUpViewController.swift */,
+				3DA3404E2A23BA4300BFC3BD /* LoginViewController.swift */,
+				3DA3404C2A23BA3600BFC3BD /* HomeViewController.swift */,
+				3DA3403B2A23BA1A00BFC3BD /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		ECADCCE06A08480EC173D7A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20E230120F79E2E1B20458AE /* Pods-OrbitalHappyTownNew.debug.xcconfig */,
+				8B5BD5C7A779A2B11F44ADFF /* Pods-OrbitalHappyTownNew.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DA340482A23BA1C00BFC3BD /* Build configuration list for PBXNativeTarget "OrbitalHappyTownNew" */;
 			buildPhases = (
+				CBDA5CD34203901E91CE61B0 /* [CP] Check Pods Manifest.lock */,
 				3DA340302A23BA1A00BFC3BD /* Sources */,
 				3DA340312A23BA1A00BFC3BD /* Frameworks */,
 				3DA340322A23BA1A00BFC3BD /* Resources */,
+				3113814027C4E2142A58A761 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA4A73E2A23C6E700586632 /* GoogleService-Info (2).plist in Resources */,
 				3DA340442A23BA1C00BFC3BD /* LaunchScreen.storyboard in Resources */,
+				3D1D6E322A23CE1F00FF11DE /* GoogleService-Info.plist in Resources */,
 				3DA340412A23BA1C00BFC3BD /* Assets.xcassets in Resources */,
 				3DA3403F2A23BA1A00BFC3BD /* Main.storyboard in Resources */,
 			);
@@ -133,14 +202,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3113814027C4E2142A58A761 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrbitalHappyTownNew/Pods-OrbitalHappyTownNew-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrbitalHappyTownNew/Pods-OrbitalHappyTownNew-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrbitalHappyTownNew/Pods-OrbitalHappyTownNew-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBDA5CD34203901E91CE61B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrbitalHappyTownNew-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3DA340302A23BA1A00BFC3BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA340512A23BA5100BFC3BD /* SignUpViewController.swift in Sources */,
 				3DA3403C2A23BA1A00BFC3BD /* ViewController.swift in Sources */,
+				3D28B7582A23D25B0002D9DB /* Utilities.swift in Sources */,
 				3DA340382A23BA1A00BFC3BD /* AppDelegate.swift in Sources */,
 				3DA3403A2A23BA1A00BFC3BD /* SceneDelegate.swift in Sources */,
+				3DA3404F2A23BA4300BFC3BD /* LoginViewController.swift in Sources */,
+				3DA3404D2A23BA3600BFC3BD /* HomeViewController.swift in Sources */,
+				3DBE0E242A23D5340025595F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +398,7 @@
 		};
 		3DA340492A23BA1C00BFC3BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E230120F79E2E1B20458AE /* Pods-OrbitalHappyTownNew.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +427,7 @@
 		};
 		3DA3404A2A23BA1C00BFC3BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5BD5C7A779A2B11F44ADFF /* Pods-OrbitalHappyTownNew.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
