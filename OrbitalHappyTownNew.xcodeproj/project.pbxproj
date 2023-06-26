@@ -7,10 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B4B0A7A1E61FD8170640E91 /* Pods_OrbitalHappyTownNew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DCAAB6111CC26C98FE5EF8 /* Pods_OrbitalHappyTownNew.framework */; };
+		1B27AD0CD3F98B39B754058D /* Pods_OrbitalHappyTownNew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E9142A02FBA8AD4BEE2F36 /* Pods_OrbitalHappyTownNew.framework */; };
+		3D17A2AF2A417D5A0018AE00 /* GroundingYourself.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D17A2AE2A417D5A0018AE00 /* GroundingYourself.png */; };
+		3D17A2B72A4182D30018AE00 /* ManagingAnxietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17A2B62A4182D30018AE00 /* ManagingAnxietyViewController.swift */; };
+		3D17A2B92A4183E40018AE00 /* FindingJoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D17A2B82A4183E30018AE00 /* FindingJoy.png */; };
+		3D17A2BB2A4184E40018AE00 /* KindnessTowardsYourselfViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17A2BA2A4184E40018AE00 /* KindnessTowardsYourselfViewContoller.swift */; };
 		3D1C4CB82A23D61E00C12E7B /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1C4CB72A23D61E00C12E7B /* FirebaseFirestore.framework */; };
 		3D1D6E322A23CE1F00FF11DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D1D6E312A23CE1F00FF11DE /* GoogleService-Info.plist */; };
 		3D28B7582A23D25B0002D9DB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D28B7572A23D25B0002D9DB /* Utilities.swift */; };
+		3D2947162A47F8AE00BCB113 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2947152A47F8AE00BCB113 /* CalendarViewController.swift */; };
+		3D4080B42A3861E50038316D /* MoodTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4080B32A3861E50038316D /* MoodTrackerViewController.swift */; };
+		3D4B87192A453CD000C8F11C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B87182A453CD000C8F11C /* HistoryViewController.swift */; };
+		3D4C33472A482DE20098125E /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C33462A482DE20098125E /* CalendarCell.swift */; };
+		3D4C33492A4831100098125E /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C33482A4831100098125E /* CalendarHelper.swift */; };
+		3D4C334B2A486BDC0098125E /* StudySessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C334A2A486BDC0098125E /* StudySessionsViewController.swift */; };
+		3D4C334D2A486BEF0098125E /* ClassicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C334C2A486BEF0098125E /* ClassicalViewController.swift */; };
+		3D4C334F2A486BFE0098125E /* SoothingMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C334E2A486BFE0098125E /* SoothingMusicViewController.swift */; };
+		3D4C33512A486C0A0098125E /* PianoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C33502A486C0A0098125E /* PianoViewController.swift */; };
+		3D4C33532A486C140098125E /* RelaxationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C33522A486C140098125E /* RelaxationViewController.swift */; };
+		3D4C33552A486C1F0098125E /* NighttimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C33542A486C1F0098125E /* NighttimeViewController.swift */; };
+		3D4C33592A4877F80098125E /* Breathing.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4C33582A4877F70098125E /* Breathing.png */; };
+		3D4C335B2A4897D80098125E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C335A2A4897D80098125E /* ProfileViewController.swift */; };
+		3D4C335D2A48990D0098125E /* Background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3D4C335C2A48990D0098125E /* Background.jpeg */; };
+		3D4C33612A489D240098125E /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4C33602A489D230098125E /* Profile.png */; };
 		3DA340382A23BA1A00BFC3BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA340372A23BA1A00BFC3BD /* AppDelegate.swift */; };
 		3DA3403A2A23BA1A00BFC3BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA340392A23BA1A00BFC3BD /* SceneDelegate.swift */; };
 		3DA3403C2A23BA1A00BFC3BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3403B2A23BA1A00BFC3BD /* ViewController.swift */; };
@@ -21,14 +40,56 @@
 		3DA3404F2A23BA4300BFC3BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3404E2A23BA4300BFC3BD /* LoginViewController.swift */; };
 		3DA340512A23BA5100BFC3BD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA340502A23BA5100BFC3BD /* SignUpViewController.swift */; };
 		3DA4A73E2A23C6E700586632 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DA4A73D2A23C6E700586632 /* GoogleService-Info (2).plist */; };
+		3DAF4CB32A3885A500E08118 /* GoodImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF4CB22A3885A500E08118 /* GoodImage.png */; };
+		3DAF4CB52A3885C100E08118 /* OkayImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF4CB42A3885C100E08118 /* OkayImage.png */; };
+		3DAF4CB72A3885DF00E08118 /* NeutralImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF4CB62A3885DF00E08118 /* NeutralImage.png */; };
+		3DAF4CBD2A3886AA00E08118 /* AwesomeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF4CBC2A3886A900E08118 /* AwesomeImage.png */; };
+		3DAF4CBF2A3886E700E08118 /* SadImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF4CBE2A3886E700E08118 /* SadImage.png */; };
+		3DAF4CC12A38870400E08118 /* AngryImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF4CC02A38870400E08118 /* AngryImage.png */; };
+		3DAF4CC32A388C9000E08118 /* JournallingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAF4CC22A388C9000E08118 /* JournallingViewController.swift */; };
+		3DAF4CC52A38B50A00E08118 /* HappyTownLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF4CC42A38B50A00E08118 /* HappyTownLogo.png */; };
+		3DAF4CC72A38B6F300E08118 /* Flowers.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF4CC62A38B6F300E08118 /* Flowers.png */; };
+		3DAF4CC92A38BBE400E08118 /* Journalling.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF4CC82A38BBE400E08118 /* Journalling.png */; };
+		3DAF4CCB2A38BBF200E08118 /* Meditation.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF4CCA2A38BBF200E08118 /* Meditation.png */; };
+		3DAF4CCD2A38BC0100E08118 /* PersonalisedPlans.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF4CCC2A38BC0100E08118 /* PersonalisedPlans.png */; };
+		3DAF4CCF2A38BC0C00E08118 /* MoodTracker.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF4CCE2A38BC0C00E08118 /* MoodTracker.png */; };
+		3DAF4CDD2A3EF0F400E08118 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAF4CDC2A3EF0F400E08118 /* MusicViewController.swift */; };
 		3DBE0E242A23D5340025595F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBE0E232A23D5340025595F /* Constants.swift */; };
+		3DD3FB842A3F776700A756A2 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3FB832A3F776700A756A2 /* DemoViewController.swift */; };
+		3DD3FB882A402FC800A756A2 /* StudySessions.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3FB872A402FC800A756A2 /* StudySessions.png */; };
+		3DD3FB8A2A40302400A756A2 /* PianoDeepSleep.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3FB892A40302400A756A2 /* PianoDeepSleep.png */; };
+		3DD3FB8C2A40305100A756A2 /* Soothing.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3FB8B2A40305100A756A2 /* Soothing.png */; };
+		3DD3FB8E2A40307B00A756A2 /* RelaxationMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3FB8D2A40307A00A756A2 /* RelaxationMusic.png */; };
+		3DD3FB902A4030DD00A756A2 /* Nighttime.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3FB8F2A4030C400A756A2 /* Nighttime.png */; };
+		3DD3FB922A40311700A756A2 /* Classical.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3FB912A40311600A756A2 /* Classical.png */; };
+		3DD3FB952A41746700A756A2 /* ManagingAnxiety.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3FB942A41746700A756A2 /* ManagingAnxiety.png */; };
+		3DEBE2482A417BF300B6CE92 /* KindnessTowardsYourself.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEBE2472A417BF300B6CE92 /* KindnessTowardsYourself.png */; };
+		3DF0D70A2A418760005651A6 /* FindingJoyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0D7092A418760005651A6 /* FindingJoyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20E230120F79E2E1B20458AE /* Pods-OrbitalHappyTownNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitalHappyTownNew.debug.xcconfig"; path = "Target Support Files/Pods-OrbitalHappyTownNew/Pods-OrbitalHappyTownNew.debug.xcconfig"; sourceTree = "<group>"; };
+		3D17A2AE2A417D5A0018AE00 /* GroundingYourself.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GroundingYourself.png; path = ../../Downloads/GroundingYourself.png; sourceTree = "<group>"; };
+		3D17A2B62A4182D30018AE00 /* ManagingAnxietyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagingAnxietyViewController.swift; sourceTree = "<group>"; };
+		3D17A2B82A4183E30018AE00 /* FindingJoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FindingJoy.png; sourceTree = "<group>"; };
+		3D17A2BA2A4184E40018AE00 /* KindnessTowardsYourselfViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindnessTowardsYourselfViewContoller.swift; sourceTree = "<group>"; };
 		3D1C4CB72A23D61E00C12E7B /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1D6E312A23CE1F00FF11DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		3D28B7572A23D25B0002D9DB /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3D2947152A47F8AE00BCB113 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		3D4080B32A3861E50038316D /* MoodTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTrackerViewController.swift; sourceTree = "<group>"; };
+		3D4B87182A453CD000C8F11C /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		3D4C33462A482DE20098125E /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		3D4C33482A4831100098125E /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		3D4C334A2A486BDC0098125E /* StudySessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySessionsViewController.swift; sourceTree = "<group>"; };
+		3D4C334C2A486BEF0098125E /* ClassicalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicalViewController.swift; sourceTree = "<group>"; };
+		3D4C334E2A486BFE0098125E /* SoothingMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoothingMusicViewController.swift; sourceTree = "<group>"; };
+		3D4C33502A486C0A0098125E /* PianoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoViewController.swift; sourceTree = "<group>"; };
+		3D4C33522A486C140098125E /* RelaxationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxationViewController.swift; sourceTree = "<group>"; };
+		3D4C33542A486C1F0098125E /* NighttimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NighttimeViewController.swift; sourceTree = "<group>"; };
+		3D4C33582A4877F70098125E /* Breathing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Breathing.png; sourceTree = "<group>"; };
+		3D4C335A2A4897D80098125E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3D4C335C2A48990D0098125E /* Background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpeg; sourceTree = "<group>"; };
+		3D4C33602A489D230098125E /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
 		3DA340342A23BA1A00BFC3BD /* OrbitalHappyTownNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitalHappyTownNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA340372A23BA1A00BFC3BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DA340392A23BA1A00BFC3BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,9 +102,35 @@
 		3DA3404E2A23BA4300BFC3BD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3DA340502A23BA5100BFC3BD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3DA4A73D2A23C6E700586632 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		3DAF4CB22A3885A500E08118 /* GoodImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoodImage.png; sourceTree = "<group>"; };
+		3DAF4CB42A3885C100E08118 /* OkayImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OkayImage.png; sourceTree = "<group>"; };
+		3DAF4CB62A3885DF00E08118 /* NeutralImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeutralImage.png; sourceTree = "<group>"; };
+		3DAF4CBC2A3886A900E08118 /* AwesomeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AwesomeImage.png; sourceTree = "<group>"; };
+		3DAF4CBE2A3886E700E08118 /* SadImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SadImage.png; sourceTree = "<group>"; };
+		3DAF4CC02A38870400E08118 /* AngryImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AngryImage.png; sourceTree = "<group>"; };
+		3DAF4CC22A388C9000E08118 /* JournallingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournallingViewController.swift; sourceTree = "<group>"; };
+		3DAF4CC42A38B50A00E08118 /* HappyTownLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HappyTownLogo.png; sourceTree = "<group>"; };
+		3DAF4CC62A38B6F300E08118 /* Flowers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flowers.png; sourceTree = "<group>"; };
+		3DAF4CC82A38BBE400E08118 /* Journalling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Journalling.png; sourceTree = "<group>"; };
+		3DAF4CCA2A38BBF200E08118 /* Meditation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meditation.png; sourceTree = "<group>"; };
+		3DAF4CCC2A38BC0100E08118 /* PersonalisedPlans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PersonalisedPlans.png; sourceTree = "<group>"; };
+		3DAF4CCE2A38BC0C00E08118 /* MoodTracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoodTracker.png; sourceTree = "<group>"; };
+		3DAF4CDC2A3EF0F400E08118 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		3DBE0E232A23D5340025595F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		8B5BD5C7A779A2B11F44ADFF /* Pods-OrbitalHappyTownNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitalHappyTownNew.release.xcconfig"; path = "Target Support Files/Pods-OrbitalHappyTownNew/Pods-OrbitalHappyTownNew.release.xcconfig"; sourceTree = "<group>"; };
-		E4DCAAB6111CC26C98FE5EF8 /* Pods_OrbitalHappyTownNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrbitalHappyTownNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD3FB832A3F776700A756A2 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		3DD3FB872A402FC800A756A2 /* StudySessions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudySessions.png; sourceTree = "<group>"; };
+		3DD3FB892A40302400A756A2 /* PianoDeepSleep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PianoDeepSleep.png; sourceTree = "<group>"; };
+		3DD3FB8B2A40305100A756A2 /* Soothing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Soothing.png; sourceTree = "<group>"; };
+		3DD3FB8D2A40307A00A756A2 /* RelaxationMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RelaxationMusic.png; sourceTree = "<group>"; };
+		3DD3FB8F2A4030C400A756A2 /* Nighttime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nighttime.png; sourceTree = "<group>"; };
+		3DD3FB912A40311600A756A2 /* Classical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Classical.png; sourceTree = "<group>"; };
+		3DD3FB932A416E4200A756A2 /* BalooBhai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooBhai-Regular.ttf"; sourceTree = "<group>"; };
+		3DD3FB942A41746700A756A2 /* ManagingAnxiety.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ManagingAnxiety.png; sourceTree = "<group>"; };
+		3DEBE2472A417BF300B6CE92 /* KindnessTowardsYourself.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = KindnessTowardsYourself.png; path = ../../Downloads/KindnessTowardsYourself.png; sourceTree = "<group>"; };
+		3DF0D7092A418760005651A6 /* FindingJoyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingJoyViewController.swift; sourceTree = "<group>"; };
+		4968D7B85C38791B1F53D7B7 /* Pods-OrbitalHappyTownNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitalHappyTownNew.release.xcconfig"; path = "Target Support Files/Pods-OrbitalHappyTownNew/Pods-OrbitalHappyTownNew.release.xcconfig"; sourceTree = "<group>"; };
+		71E9142A02FBA8AD4BEE2F36 /* Pods_OrbitalHappyTownNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrbitalHappyTownNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9117606294F5E7C572D59FC7 /* Pods-OrbitalHappyTownNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitalHappyTownNew.debug.xcconfig"; path = "Target Support Files/Pods-OrbitalHappyTownNew/Pods-OrbitalHappyTownNew.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1C4CB82A23D61E00C12E7B /* FirebaseFirestore.framework in Frameworks */,
-				0B4B0A7A1E61FD8170640E91 /* Pods_OrbitalHappyTownNew.framework in Frameworks */,
+				1B27AD0CD3F98B39B754058D /* Pods_OrbitalHappyTownNew.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				3D1C4CB72A23D61E00C12E7B /* FirebaseFirestore.framework */,
-				E4DCAAB6111CC26C98FE5EF8 /* Pods_OrbitalHappyTownNew.framework */,
+				71E9142A02FBA8AD4BEE2F36 /* Pods_OrbitalHappyTownNew.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,6 +167,32 @@
 		3DA3402B2A23BA1A00BFC3BD = {
 			isa = PBXGroup;
 			children = (
+				3DAF4CCE2A38BC0C00E08118 /* MoodTracker.png */,
+				3DAF4CCC2A38BC0100E08118 /* PersonalisedPlans.png */,
+				3D4C33582A4877F70098125E /* Breathing.png */,
+				3DAF4CCA2A38BBF200E08118 /* Meditation.png */,
+				3DAF4CC82A38BBE400E08118 /* Journalling.png */,
+				3DAF4CC62A38B6F300E08118 /* Flowers.png */,
+				3DAF4CC42A38B50A00E08118 /* HappyTownLogo.png */,
+				3DAF4CC02A38870400E08118 /* AngryImage.png */,
+				3DAF4CBE2A3886E700E08118 /* SadImage.png */,
+				3DAF4CBC2A3886A900E08118 /* AwesomeImage.png */,
+				3DAF4CB22A3885A500E08118 /* GoodImage.png */,
+				3DAF4CB42A3885C100E08118 /* OkayImage.png */,
+				3DAF4CB62A3885DF00E08118 /* NeutralImage.png */,
+				3DD3FB872A402FC800A756A2 /* StudySessions.png */,
+				3DD3FB892A40302400A756A2 /* PianoDeepSleep.png */,
+				3DD3FB8B2A40305100A756A2 /* Soothing.png */,
+				3DD3FB8D2A40307A00A756A2 /* RelaxationMusic.png */,
+				3DD3FB8F2A4030C400A756A2 /* Nighttime.png */,
+				3D17A2B82A4183E30018AE00 /* FindingJoy.png */,
+				3DD3FB912A40311600A756A2 /* Classical.png */,
+				3D17A2AE2A417D5A0018AE00 /* GroundingYourself.png */,
+				3DD3FB942A41746700A756A2 /* ManagingAnxiety.png */,
+				3D4C335C2A48990D0098125E /* Background.jpeg */,
+				3DD3FB932A416E4200A756A2 /* BalooBhai-Regular.ttf */,
+				3D4C33602A489D230098125E /* Profile.png */,
+				3DEBE2472A417BF300B6CE92 /* KindnessTowardsYourself.png */,
 				3DA340362A23BA1A00BFC3BD /* OrbitalHappyTownNew */,
 				3DA340352A23BA1A00BFC3BD /* Products */,
 				ECADCCE06A08480EC173D7A2 /* Pods */,
@@ -115,10 +228,28 @@
 		3DA3404B2A23BA2600BFC3BD /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3DA3403B2A23BA1A00BFC3BD /* ViewController.swift */,
 				3DA340502A23BA5100BFC3BD /* SignUpViewController.swift */,
 				3DA3404E2A23BA4300BFC3BD /* LoginViewController.swift */,
 				3DA3404C2A23BA3600BFC3BD /* HomeViewController.swift */,
-				3DA3403B2A23BA1A00BFC3BD /* ViewController.swift */,
+				3D4080B32A3861E50038316D /* MoodTrackerViewController.swift */,
+				3D17A2BA2A4184E40018AE00 /* KindnessTowardsYourselfViewContoller.swift */,
+				3DAF4CC22A388C9000E08118 /* JournallingViewController.swift */,
+				3D17A2B62A4182D30018AE00 /* ManagingAnxietyViewController.swift */,
+				3DAF4CDC2A3EF0F400E08118 /* MusicViewController.swift */,
+				3DF0D7092A418760005651A6 /* FindingJoyViewController.swift */,
+				3DD3FB832A3F776700A756A2 /* DemoViewController.swift */,
+				3D4B87182A453CD000C8F11C /* HistoryViewController.swift */,
+				3D2947152A47F8AE00BCB113 /* CalendarViewController.swift */,
+				3D4C33462A482DE20098125E /* CalendarCell.swift */,
+				3D4C334A2A486BDC0098125E /* StudySessionsViewController.swift */,
+				3D4C334C2A486BEF0098125E /* ClassicalViewController.swift */,
+				3D4C334E2A486BFE0098125E /* SoothingMusicViewController.swift */,
+				3D4C33502A486C0A0098125E /* PianoViewController.swift */,
+				3D4C33522A486C140098125E /* RelaxationViewController.swift */,
+				3D4C33542A486C1F0098125E /* NighttimeViewController.swift */,
+				3D4C335A2A4897D80098125E /* ProfileViewController.swift */,
+				3D4C33482A4831100098125E /* CalendarHelper.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -126,8 +257,8 @@
 		ECADCCE06A08480EC173D7A2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				20E230120F79E2E1B20458AE /* Pods-OrbitalHappyTownNew.debug.xcconfig */,
-				8B5BD5C7A779A2B11F44ADFF /* Pods-OrbitalHappyTownNew.release.xcconfig */,
+				9117606294F5E7C572D59FC7 /* Pods-OrbitalHappyTownNew.debug.xcconfig */,
+				4968D7B85C38791B1F53D7B7 /* Pods-OrbitalHappyTownNew.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -139,11 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DA340482A23BA1C00BFC3BD /* Build configuration list for PBXNativeTarget "OrbitalHappyTownNew" */;
 			buildPhases = (
-				CBDA5CD34203901E91CE61B0 /* [CP] Check Pods Manifest.lock */,
+				7A0F390DDE6408D40303425C /* [CP] Check Pods Manifest.lock */,
 				3DA340302A23BA1A00BFC3BD /* Sources */,
 				3DA340312A23BA1A00BFC3BD /* Frameworks */,
 				3DA340322A23BA1A00BFC3BD /* Resources */,
-				3113814027C4E2142A58A761 /* [CP] Embed Pods Frameworks */,
+				4E15F9CF35A5A9E8F4A517A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,18 +323,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D4C33592A4877F80098125E /* Breathing.png in Resources */,
+				3DAF4CCF2A38BC0C00E08118 /* MoodTracker.png in Resources */,
+				3DAF4CCD2A38BC0100E08118 /* PersonalisedPlans.png in Resources */,
+				3DD3FB952A41746700A756A2 /* ManagingAnxiety.png in Resources */,
+				3DD3FB8E2A40307B00A756A2 /* RelaxationMusic.png in Resources */,
+				3DAF4CCB2A38BBF200E08118 /* Meditation.png in Resources */,
+				3DAF4CC92A38BBE400E08118 /* Journalling.png in Resources */,
+				3DAF4CC72A38B6F300E08118 /* Flowers.png in Resources */,
+				3DAF4CC52A38B50A00E08118 /* HappyTownLogo.png in Resources */,
+				3D4C335D2A48990D0098125E /* Background.jpeg in Resources */,
+				3DAF4CC12A38870400E08118 /* AngryImage.png in Resources */,
+				3DAF4CBF2A3886E700E08118 /* SadImage.png in Resources */,
+				3DD3FB902A4030DD00A756A2 /* Nighttime.png in Resources */,
+				3DAF4CBD2A3886AA00E08118 /* AwesomeImage.png in Resources */,
+				3DEBE2482A417BF300B6CE92 /* KindnessTowardsYourself.png in Resources */,
+				3DAF4CB72A3885DF00E08118 /* NeutralImage.png in Resources */,
+				3DD3FB8C2A40305100A756A2 /* Soothing.png in Resources */,
+				3DD3FB882A402FC800A756A2 /* StudySessions.png in Resources */,
+				3DAF4CB52A3885C100E08118 /* OkayImage.png in Resources */,
+				3D4C33612A489D240098125E /* Profile.png in Resources */,
+				3DD3FB8A2A40302400A756A2 /* PianoDeepSleep.png in Resources */,
+				3DAF4CB32A3885A500E08118 /* GoodImage.png in Resources */,
+				3D17A2B92A4183E40018AE00 /* FindingJoy.png in Resources */,
 				3DA4A73E2A23C6E700586632 /* GoogleService-Info (2).plist in Resources */,
 				3DA340442A23BA1C00BFC3BD /* LaunchScreen.storyboard in Resources */,
 				3D1D6E322A23CE1F00FF11DE /* GoogleService-Info.plist in Resources */,
+				3D17A2AF2A417D5A0018AE00 /* GroundingYourself.png in Resources */,
 				3DA340412A23BA1C00BFC3BD /* Assets.xcassets in Resources */,
 				3DA3403F2A23BA1A00BFC3BD /* Main.storyboard in Resources */,
+				3DD3FB922A40311700A756A2 /* Classical.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3113814027C4E2142A58A761 /* [CP] Embed Pods Frameworks */ = {
+		4E15F9CF35A5A9E8F4A517A0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -220,7 +376,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrbitalHappyTownNew/Pods-OrbitalHappyTownNew-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CBDA5CD34203901E91CE61B0 /* [CP] Check Pods Manifest.lock */ = {
+		7A0F390DDE6408D40303425C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -249,14 +405,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D17A2BB2A4184E40018AE00 /* KindnessTowardsYourselfViewContoller.swift in Sources */,
 				3DA340512A23BA5100BFC3BD /* SignUpViewController.swift in Sources */,
 				3DA3403C2A23BA1A00BFC3BD /* ViewController.swift in Sources */,
+				3DAF4CC32A388C9000E08118 /* JournallingViewController.swift in Sources */,
+				3D4C334F2A486BFE0098125E /* SoothingMusicViewController.swift in Sources */,
+				3D4C335B2A4897D80098125E /* ProfileViewController.swift in Sources */,
+				3D4C334D2A486BEF0098125E /* ClassicalViewController.swift in Sources */,
 				3D28B7582A23D25B0002D9DB /* Utilities.swift in Sources */,
+				3D4C33552A486C1F0098125E /* NighttimeViewController.swift in Sources */,
 				3DA340382A23BA1A00BFC3BD /* AppDelegate.swift in Sources */,
+				3D4C33532A486C140098125E /* RelaxationViewController.swift in Sources */,
+				3D4C334B2A486BDC0098125E /* StudySessionsViewController.swift in Sources */,
+				3D4080B42A3861E50038316D /* MoodTrackerViewController.swift in Sources */,
 				3DA3403A2A23BA1A00BFC3BD /* SceneDelegate.swift in Sources */,
+				3DAF4CDD2A3EF0F400E08118 /* MusicViewController.swift in Sources */,
+				3D2947162A47F8AE00BCB113 /* CalendarViewController.swift in Sources */,
+				3D17A2B72A4182D30018AE00 /* ManagingAnxietyViewController.swift in Sources */,
+				3DD3FB842A3F776700A756A2 /* DemoViewController.swift in Sources */,
+				3D4C33492A4831100098125E /* CalendarHelper.swift in Sources */,
 				3DA3404F2A23BA4300BFC3BD /* LoginViewController.swift in Sources */,
 				3DA3404D2A23BA3600BFC3BD /* HomeViewController.swift in Sources */,
+				3DF0D70A2A418760005651A6 /* FindingJoyViewController.swift in Sources */,
+				3D4B87192A453CD000C8F11C /* HistoryViewController.swift in Sources */,
+				3D4C33512A486C0A0098125E /* PianoViewController.swift in Sources */,
 				3DBE0E242A23D5340025595F /* Constants.swift in Sources */,
+				3D4C33472A482DE20098125E /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +572,7 @@
 		};
 		3DA340492A23BA1C00BFC3BD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20E230120F79E2E1B20458AE /* Pods-OrbitalHappyTownNew.debug.xcconfig */;
+			baseConfigurationReference = 9117606294F5E7C572D59FC7 /* Pods-OrbitalHappyTownNew.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -427,7 +601,7 @@
 		};
 		3DA3404A2A23BA1C00BFC3BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B5BD5C7A779A2B11F44ADFF /* Pods-OrbitalHappyTownNew.release.xcconfig */;
+			baseConfigurationReference = 4968D7B85C38791B1F53D7B7 /* Pods-OrbitalHappyTownNew.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
