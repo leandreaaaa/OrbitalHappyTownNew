@@ -14,20 +14,15 @@ To ensure a smooth installation and testing process, please make sure you have t
 Follow the steps below to install and set up OrbitalHappyTownNew:
 
 1. Clone the OrbitalHappyTownNew repository from GitHub:
+git clone https://github.com/leandreaaaa/OrbitalHappyTownNew.git
 
-<html>
-<body>
-<p>git clone https://github.com/leandreaaaa/OrbitalHappyTownNew 
-</body>
-</html>
+2. Type into terminal: 
+- cd OrbitalHappyTownNew
+- pod install
 
-2. Open the project in Xcode:
-- Find the cloned repository on your system
-- Double-click on the HappyTownNew.xcodeproj file to open it in Xcode
+3. Go to the folder (use Finder) => OrbitalHappyTownNew => open OrbitalHappyTownNew.xcworkspace
 
-3. Build and Run the App:
-- Choose the target device from the device selection dropdown in Xcode's toolbar
-- Click the "Build and Run" (play) button or use the Cmd + B shortcut to build and run the app on your selected device
+4. Build the app
 
 ## Testing the App
 Once OrbitalHappyTownNew is successfully built and running on your iOS device, test its functionality
