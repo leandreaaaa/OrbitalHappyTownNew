@@ -1,0 +1,90 @@
+Target dependency graph (21 targets)
+PromisesObjC in Pods, no dependencies
+GoogleUtilities in Pods, depends on:
+PromisesObjC in Pods (explicit)
+FirebaseCoreInternal in Pods, depends on:
+GoogleUtilities in Pods (explicit)
+FirebaseCore in Pods, depends on:
+FirebaseCoreInternal in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+abseil in Pods, no dependencies
+BoringSSL-GRPC in Pods, no dependencies
+gRPC-Core in Pods, depends on:
+BoringSSL-GRPC in Pods (explicit)
+abseil in Pods (explicit)
+gRPC-C++-gRPCCertificates-Cpp in Pods, depends on:
+abseil in Pods (implicit dependency via options '-framework absl' in build setting 'OTHER_LDFLAGS')
+gRPC-Core in Pods (implicit dependency via options '-framework grpc' in build setting 'OTHER_LDFLAGS')
+gRPC-C++ in Pods, depends on:
+abseil in Pods (explicit)
+gRPC-C++-gRPCCertificates-Cpp in Pods (explicit)
+gRPC-Core in Pods (explicit)
+leveldb-library in Pods, no dependencies
+nanopb in Pods, no dependencies
+FirebaseFirestore in Pods, depends on:
+FirebaseCore in Pods (explicit)
+abseil in Pods (explicit)
+gRPC-C++ in Pods (explicit)
+leveldb-library in Pods (explicit)
+nanopb in Pods (explicit)
+FirebaseInstallations in Pods, depends on:
+FirebaseCore in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+PromisesObjC in Pods (explicit)
+GoogleAppMeasurement in Pods, depends on:
+GoogleUtilities in Pods (explicit)
+nanopb in Pods (explicit)
+FirebaseAnalytics in Pods, depends on:
+FirebaseCore in Pods (explicit)
+FirebaseInstallations in Pods (explicit)
+GoogleAppMeasurement in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+nanopb in Pods (explicit)
+FirebaseAppCheckInterop in Pods, no dependencies
+GTMSessionFetcher in Pods, no dependencies
+FirebaseAuth in Pods, depends on:
+FirebaseAppCheckInterop in Pods (explicit)
+FirebaseCore in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+Firebase in Pods, depends on:
+FirebaseAnalytics in Pods (explicit)
+FirebaseAuth in Pods (explicit)
+FirebaseCore in Pods (explicit)
+FirebaseFirestore in Pods (explicit)
+Pods-OrbitalHappyTownNew in Pods, depends on:
+BoringSSL-GRPC in Pods (explicit)
+Firebase in Pods (explicit)
+FirebaseAnalytics in Pods (explicit)
+FirebaseAppCheckInterop in Pods (explicit)
+FirebaseAuth in Pods (explicit)
+FirebaseCore in Pods (explicit)
+FirebaseCoreInternal in Pods (explicit)
+FirebaseFirestore in Pods (explicit)
+FirebaseInstallations in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleAppMeasurement in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+PromisesObjC in Pods (explicit)
+abseil in Pods (explicit)
+gRPC-C++ in Pods (explicit)
+gRPC-Core in Pods (explicit)
+leveldb-library in Pods (explicit)
+nanopb in Pods (explicit)
+OrbitalHappyTownNew in OrbitalHappyTownNew, depends on:
+FirebaseFirestore in Pods (implicit dependency via file 'FirebaseFirestore.framework' in build phase 'Link Binary')
+Pods-OrbitalHappyTownNew in Pods (implicit dependency via file 'Pods_OrbitalHappyTownNew.framework' in build phase 'Link Binary')
+PromisesObjC in Pods (implicit dependency via options '-framework FBLPromises' in build setting 'OTHER_LDFLAGS')
+FirebaseAppCheckInterop in Pods (implicit dependency via options '-framework FirebaseAppCheckInterop' in build setting 'OTHER_LDFLAGS')
+FirebaseAuth in Pods (implicit dependency via options '-framework FirebaseAuth' in build setting 'OTHER_LDFLAGS')
+FirebaseCore in Pods (implicit dependency via options '-framework FirebaseCore' in build setting 'OTHER_LDFLAGS')
+FirebaseCoreInternal in Pods (implicit dependency via options '-framework FirebaseCoreInternal' in build setting 'OTHER_LDFLAGS')
+FirebaseInstallations in Pods (implicit dependency via options '-framework FirebaseInstallations' in build setting 'OTHER_LDFLAGS')
+GTMSessionFetcher in Pods (implicit dependency via options '-framework GTMSessionFetcher' in build setting 'OTHER_LDFLAGS')
+GoogleUtilities in Pods (implicit dependency via options '-framework GoogleUtilities' in build setting 'OTHER_LDFLAGS')
+abseil in Pods (implicit dependency via options '-framework absl' in build setting 'OTHER_LDFLAGS')
+gRPC-Core in Pods (implicit dependency via options '-framework grpc' in build setting 'OTHER_LDFLAGS')
+gRPC-C++ in Pods (implicit dependency via options '-framework grpcpp' in build setting 'OTHER_LDFLAGS')
+leveldb-library in Pods (implicit dependency via options '-framework leveldb' in build setting 'OTHER_LDFLAGS')
+nanopb in Pods (implicit dependency via options '-framework nanopb' in build setting 'OTHER_LDFLAGS')
+BoringSSL-GRPC in Pods (implicit dependency via options '-framework openssl_grpc' in build setting 'OTHER_LDFLAGS')

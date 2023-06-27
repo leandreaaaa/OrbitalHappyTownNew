@@ -12,7 +12,6 @@ import FirebaseFirestore
 
 class SignUpViewController: UIViewController {
     
-    
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
@@ -21,8 +20,41 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var errorLabel: UILabel!
     @IBOutlet weak var backButton: UIButton!
     
+    @IBOutlet weak var signUpLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        // Set up the placeholders for the text fields
+        firstNameTextField.placeholder = "First Name"
+        lastNameTextField.placeholder = "Last Name"
+        emailTextField.placeholder = "Email"
+        passwordTextField.placeholder = "Password"
+        
+            
+        // Set up UI customization
+        customizeUI()
+        
+        // Do any additional setup after loading the view.
+        setUpElements()
+    }
+    
+    func customizeUI() {
+        // Reduce the size of the image
+            let imageView = UIImageView(image: UIImage(named: "Flowers"))
+            imageView.contentMode = .scaleAspectFit
+            view.addSubview(imageView)
+            
+            imageView.translatesAutoresizingMaskIntoConstraints = false
+            NSLayoutConstraint.activate([
+                imageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 50),
+                imageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                imageView.widthAnchor.constraint(equalToConstant: 150),
+                imageView.heightAnchor.constraint(equalToConstant: 150)
+            ])
+            
+        
+
 
         // Do any additional setup after loading the view.
         setUpElements()
